@@ -1,57 +1,53 @@
-## 免责声明
+# Xmind Crack Patch
 
-⚠️ **该破解补丁仅限用于学习和研究目的，并且不会对新版本 Xmind 继续进行更新。**
+## Isenção de Responsabilidade
 
-- 您必须在下载后的 24 个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该程序，请支持正版软件，购买注册，得到更好的正版服务。
+⚠️ **Aviso Legal:** Este patch de quebra de proteção é destinado apenas para fins de estudo e pesquisa e não será atualizado para novas versões do Xmind.
 
-- 禁止用于商业或者非法用途，且不得将该软件对大众进行传播，否则，一切后果自负。
+- Você deve excluir completamente o conteúdo deste patch do seu computador dentro de 24 horas após o download. 
+- Se você gostar do programa, por favor, apoie o software original, comprando uma licença e obtendo um serviço melhor.
+- É proibido o uso para fins comerciais ou ilegais, e o software não deve ser disseminado ao público em geral. 
+- Todas as consequências decorrentes serão de sua responsabilidade.
 
-- 如果您使用本软件和技术用于商业化而产生任何损失、风险或法律纠纷，作者将不承担任何责任。
+- O autor não assume qualquer responsabilidade por perdas, riscos ou disputas legais resultantes do uso comercial deste software e tecnologia.
 
-- 作者不保证本软件和技术的完整性、准确性、可靠性、适用性或及时性。使用本软件和技术产生的任何后果，作者将不承担任何责任。
+- Nenhuma opinião, sugestão ou informação neste software e tecnologia constitui garantia ou garantia de qualquer forma do autor ou da organização do autor.
 
-- 本软件和技术中的任何意见、建议或信息，均不构成作者或作者所在组织的任何形式的保证或担保。
+- Ninguém está autorizado a realizar engenharia reversa, quebrar proteções ou outras atividades ilegais neste software e tecnologia.
 
-- 任何人不得对本软件和技术进行反向工程、破解或其他非法行为。
+- Qualquer atividade não autorizada pode constituir violação de direitos autorais ou atividade ilegal.
 
-- 任何未经作者或作者所在组织授权的行为，均可能构成侵权或违法行为，一经发现作者将保留追究其法律责任的权利。
+## Descrição
 
-- 使用本软件和技术将被视为您已经完全接受本免责声明的所有条款和条件。如果您不同意本免责声明的任何部分，请勿使用本软件和技术。
+Este patch é exclusivamente para a versão 23.08.02122 do Xmind e oferece suporte à "experiência funcional" nas versões Linux e MacOS.
 
-## 描述
+Atualmente, não é suportado no sistema Windows.
 
-该补丁仅针对 Xmind 23.08.02122 版本，不保证其他版本的可用性，支持 Linux、MacOS 版本的“功能体验”。
+- Por favor, apoie o software original, compre uma licença e obtenha um serviço melhor.
 
-**暂不支持 Windows 系统，Windows 系统请勿”体验“。**
-
-再次重申如果您喜欢该程序，请支持正版软件，购买注册，得到更好的正版服务。
-
-> Releases 中提供生成好的补丁文件，可前往直接下载替换。
-
-## 环境搭建
+## Configuração do Ambiente
 
 - Node.js
 - Xmind 23.08.02122
+- npm install -g asar
+
+## Como Usar
+
+1. Baixe e instale a versão 23.08.02122 do Xmind oficialmente.
+2. Clone o projeto:
 
 ```bash
-npm install -g asar
+git clone https://github.com/henryau53/xmind-crack-patch.git
+cd xmind-crack-patch
 ```
 
-## 如何使用
+3. Compile o pacote de patch:
 
-1. 从官方下载 Xmind 23.08.02122 版本进行安装。
+```bash
+asar pack ./app.asar.non-windows app.asar
+```
 
-2. 克隆项目
+4. Substitua o arquivo app.asar na pasta resources do local de instalação do Xmind pelo arquivo app.asar gerado no passo anterior.
 
-   ```bash
-   git clone https://github.com/henryau53/xmind-crack-patch.git
-   cd xmind-crack-patch
-   ```
+---
 
-3. 编译补丁包
-
-   ```bash
-   asar pack ./app.asar.non-windows app.asar
-   ```
-
-4. 使用上一步生成的 app.asar 文件替换 Xmind 安装路径中的 resources 文件夹中的 app.asar 文件即可。
